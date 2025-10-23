@@ -1,0 +1,40 @@
+.topbar {
+  background: var(--brand);
+  color: #fff;
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.dot::before {
+  content: "•";
+  margin: 0 8px;
+  opacity: .8;
+}
+
+.socials {
+  display: flex;
+  gap: 12px;
+}
+
+.socials a {
+  opacity: .9;
+}
+
+.socials a:hover {
+  opacity: 1;
+}
